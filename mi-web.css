@@ -1,0 +1,70 @@
+body {
+  background-color: Thistle;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+img {
+    border-radius: 50%;
+    max-width: 250px;
+    border-style: solid;
+    color: magenta;
+}
+
+.image-small img {
+  border-radius: 80%;
+  position: absolute;
+  right: 550px;
+  top: 210px;
+  max-width: 50px;
+}
+
+h1 {
+    color: magenta;
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.title {
+  font-family: 'Asap',sans-serif;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  font-style: oblique;
+}
+
+.text {
+  font-size: 14px;
+  font-family: monospace;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.social-media {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 580px;
+  left: 520px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-block;
+    color: gray;
+    margin: 10px;
+}
